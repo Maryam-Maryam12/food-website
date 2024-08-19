@@ -1,0 +1,225 @@
+body{
+	font-family: 'Righteous', cursive;
+}
+.navbar{
+background: #A44A1D;
+}
+.navbar-nav a{
+color: white;
+}
+.navbar-brand {
+     color: white; 
+     font-weight: 700;
+     font-size: 23px;
+ }
+
+.navbar-brand span{
+font-family: 'Creepster', cursive;
+color:black;
+}
+.navbar-brand:hover {
+     color: black; 
+ }
+
+
+/*home*/
+.box{
+     background-image: url("bgg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+} 
+
+.middle-heading h1{
+     font-weight: 700;
+}    
+.middle-heading h1 span{
+     color: #A44A1D;
+}
+
+
+/*about*/
+ .about-section {
+            background-color:#FFF ;
+            color: #A44A1D;
+            padding: 40px;
+        }
+
+        /* Style the image */
+        .about-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+        }
+
+        /* Style the heading */
+        .about-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the paragraph */
+        .about-paragraph {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the button */
+        .about-button {
+            background-color:#A44A1D ;
+            color: #FFF;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+        }
+
+
+/*menu*/
+.menu-section {
+            background-color: #F5F5F5; /* Optional: Set a light background color */
+            padding: 40px 0;
+        }
+
+        /* Style the card */
+        .menu-card {
+            margin-bottom: 20px;
+        }
+
+       .menu-card img {
+            max-width: 100%;
+            height: 200px; /* Set your desired fixed height */
+            object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+            border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+        }
+        .menu-section h2 span{
+          color: #A44A1D ;
+          font-weight: 700;
+        }
+        .menu-section .btn-color{
+          background-color: #A44A1D;
+          color: white;
+        }
+
+
+        /*gallery*/
+.gallery-section {
+            background-color: #F5F5F5; 
+            padding: 40px 0;
+        }
+
+        /* Style the card */
+        .gallery-card {
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        
+        .gallery-card:hover {
+            transform: scale(1.05);
+        }
+
+        
+        .gallery-card img {
+            max-width: 100%;
+            height: 300px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+        }
+
+        
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.3s;
+        }
+
+        .gallery-overlay-content {
+            color: #FFF;
+            padding: 10px;
+        }
+
+        .gallery-overlay-button {
+            background-color: #FFF;
+            color: #A44A1D;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px; 
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        .gallery-card:hover .gallery-overlay {
+            opacity: 1;
+        }
+        .gallery-card .btn-color{
+          background-color: #A44A1D;
+          color: white;
+        }
+
+
+
+
+        .contact-section {
+            background-color: #F5F5F5; /* Optional: Set a light background color */
+            padding: 40px 0;
+        }
+
+        .contact-section h2{
+          color:#A44A1D ;
+        }
+
+        .contact-image img {
+            max-width: 100%;
+            border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+        }
+
+        /* Style the contact form column */
+        .contact-form {
+            max-width: 500px; /* Adjust the width as needed */
+        }
+        .contact-section .btn-color{
+          background-color: #A44A1D;
+          color: white;
+        }
+
+
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .footer-links a:hover {
+          color:  #A44A1D;
+        }
+\
+        .footer-social i {
+            font-size: 24px;
+            margin-right: 10px;
+            color: white;
+        }
+        .footer-social i:hover {
+          color:  #A44A1D;
+        }
+
